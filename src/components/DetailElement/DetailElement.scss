@@ -1,0 +1,26 @@
+.c-detel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+        height: 320px;
+        object-fit: contain;
+        object-position: center;
+        max-width: 500px;
+    }
+
+    span {
+        font-family: got;
+        font-size: 36px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--white);
+        height: 36px;
+        margin: 20px;
+    }
+}

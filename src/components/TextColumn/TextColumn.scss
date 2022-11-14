@@ -1,0 +1,46 @@
+.c-textc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 37vh;
+    width: 25vw;
+    overflow: hidden;
+    
+    h2 {
+        height: 24px;
+        margin: 20px 30px 10px 30px;
+        font-family: got;
+        font-size: 21px; 
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--white);
+    }
+
+    span {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--white);
+    }
+
+    &--elem {
+        overflow: scroll;
+        overflow-x: hidden;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+        li {
+            margin: 10px;
+        }
+    }
+}

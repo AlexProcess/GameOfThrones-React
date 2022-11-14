@@ -1,0 +1,27 @@
+.c-imgc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 37vh;
+    width: 25vh;
+
+    h2 {
+        height: 24px;
+        margin: 20px 30px 10px 30px;
+        font-family: got;
+        font-size: 24px; 
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--white);
+    }
+
+    img {
+        margin: 15px;
+        width: 160px;
+        cursor: pointer;    
+    }
+}
